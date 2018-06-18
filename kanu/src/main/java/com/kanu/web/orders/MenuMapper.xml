@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.kanu.web.orders.MenuDAO">
+  
+  <resultMap type="map" id="">
+	<id property="menu_id" column="MENU_ID"/> 
+	<result property="menu_name" column="MENU_NAME"/>
+	<result property="price" column="PRICE"/>
+  
+  </resultMap>
+  
+  <!-- (다건)전체 조회 -->
+  <select id="getMenuList" resultType="map" parameterType="MenuVO">
+  
+  <!--as = alias 로 key주기  -->
+		SELECT 
+		MENU_ID as "menu_id",
+		MENU_NAME as "menu_name",
+		PRICE as "price",
+		FROM MENU
+	</select>
+	
+	<!-- 단건 조회  -->
+	<select 
+  
+  </mapper>
