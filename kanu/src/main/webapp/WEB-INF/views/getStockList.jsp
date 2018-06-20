@@ -3,10 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<title>Insert title here</title>
+<title></title>
 </head>
 <body>
-
+	<h3> 재고 목록 </h3>
+	
 </body>
 </html>
