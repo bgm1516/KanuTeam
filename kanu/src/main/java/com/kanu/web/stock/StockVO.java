@@ -6,13 +6,13 @@ public class StockVO {
 	private int stockQuantity;
 	private int minimumQuantity;
 	private int supplierId;
-	public String getProductId() {
+	public String getProductId() { 
 		return productId;
 	}
 	public void setProductId(String productId) {
 		this.productId = productId;
 	}
-	public String getProductLocation() {
+	public String getProductLocation() { 
 		return productLocation;
 	}
 	public void setProductLocation(String productLocation) {
