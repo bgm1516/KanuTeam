@@ -37,7 +37,7 @@ public class StockController {
 	@RequestMapping("/getStockList.do")
 	public String getStockList(StockDAO dao, Model model) {
 		model.addAttribute("stockList", dao.getStockList());
-		return "getStockList.jsp";
+		return "stock/getStockList";
 	}
 
 	/*//수정폼

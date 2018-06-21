@@ -26,7 +26,7 @@ public class MenuClientSpring {
 		list.add("300");
 		list.add("310"); 
 		list.add("330");
-		menuDAO.deleteMenu(list); 
+		//menuDAO.deleteMenu(list); 
 	}
 	//다건 조회
 	@Test
@@ -36,7 +36,7 @@ public class MenuClientSpring {
 		MenuVO menuVO = new MenuVO();
 		menuVO.setMenu_id("101");
 		menuVO.setMenu_name("c");
-		List<Map<String,Object>> list =
+		//List<Map<String,Object>> list =
 		
 	}
 
